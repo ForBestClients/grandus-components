@@ -3,7 +3,8 @@
   "version": "1.0.4",
   "description": "Grandus ecommerce premade components",
   "keywords": [],
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 \"./src/**/*.css\" \"./src/**/*.scss\" dist/ && echo 'Style files copied.'",
