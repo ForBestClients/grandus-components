@@ -53,6 +53,7 @@ const Version01 = ({
   brand,
   linkRender,
   options,
+  children,
 }: Props): JSX.Element => {
   const isPriceOriginalVisible =
     (price?.price ?? 0) < (priceOriginal?.price ?? 0);
@@ -83,6 +84,7 @@ const Version01 = ({
           )}
         </section>
       </section>
+      {children}
     </div>
   );
 };
